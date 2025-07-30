@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let m = 4;
+        console.log(m % 2);
+
+        let n = 7;
+        console.log( n % 2);
+
+        let count = 0;
+         function hey(){
+            count+=1;
+            if(count%2==0){
+                alert('even');
+            }else{
+                alert('odd');
+            }
+
+         }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .text1{
+            width:100px;
+            height:100px;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="hey()">Click me!!!</button>
+    <div class="text1" id="test-1">
+        Test Number 1
+    </div>
+</body>
+</html>
